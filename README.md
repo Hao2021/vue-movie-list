@@ -1,4 +1,5 @@
-# vue-movie-db-yt
+# vue-movie-list
+Moviess List application build with vue js
 
 ## Project setup
 ```

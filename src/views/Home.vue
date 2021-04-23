@@ -13,6 +13,10 @@
     <form @submit.prevent="SearchMovies()" class="search-box">
       <input type="text" placeholder="Search movies" v-model="search" />
       <input type="submit" value="Search" />
+      <br>
+      <a href="https://dev.forms.bloo.io/f/cknoa3daa349228updvct8o2e2" style="color:white; text-decoration: underline">
+        Request movies
+      </a>
     </form>
 
     <div class="movies-list">
@@ -147,6 +151,18 @@ export default {
         font-size: 20px;
         text-transform: uppercase;
         transition: 0.4s;
+
+      &[button] {
+        width: 100%;
+        max-width: 300px;
+        background-color: #42B883;
+        padding: 16px;
+        border-radius: 8px;
+        color: #FFF;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.4s;
+      }
 
         &:active {
           background-color: #3B8070;
